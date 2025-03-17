@@ -1,7 +1,5 @@
 <root main_tree_to_execute="MainTree">
-    <BehaviorTree ID="MainTree">
-        <Sequence>
-            <CustomNavToPose goal="{target_pose}" />
-        </Sequence>
-    </BehaviorTree>
+  <BehaviorTree ID="MainTree">
+    <CustomNavToPose goal="{goal_pose}" />
+  </BehaviorTree>
 </root>
